@@ -1,0 +1,153 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #f2f2f2;
+  position: fixed;
+}
+.navigation__list {
+  display: flex;
+  list-style: none;
+}
+.navigation__items {
+  padding-left: 1rem;
+}
+.navigation__items a {
+  text-decoration: none;
+  color: gray;
+}
+
+.ejercicio1,
+.ejercicio2,
+.ejercicio3,
+.ejercicio4,
+.ejercicio5 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ejercicio 1 */
+.click {
+  width: 300px;
+  height: 100px;
+  background-color: aquamarine;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Ejercicio 2 */
+.buscador {
+  border: 1px solid gray;
+}
+.buscador__input {
+  width: 400px;
+  height: 50px;
+}
+.buscador__button {
+  background-color: #34b0d6;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  height: 100%;
+}
+
+/* Ejercicio 3 */
+.nav {
+  border: 1px solid gray;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+.nav__logo {
+  font-size: 2rem;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+.nav__items {
+  padding-left: 1rem;
+}
+
+/* Ejercicio 4 */
+.banderas {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.banderas__items {
+  width: 200px;
+  text-align: center;
+  background-color: hotpink;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Ejercicio 5 */
+.ejercicio5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.img-section1 {
+  width: 900px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-section1__item {
+  width: 200px;
+  height: 200px;
+}
+
+.img-section2 {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.img-section2__item {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-section3 {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-section3__item {
+  width: 200px;
+  height: 200px;
+}
+.img-section3__item:nth-child(even) {
+  height: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
